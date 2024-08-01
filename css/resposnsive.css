@@ -1,0 +1,129 @@
+@media screen and (max-width:1024px) {
+ 
+  nav, header .call-btn{
+    display: none;
+  }
+
+  .menu-btn{
+    display: block;
+  }
+
+  
+ 
+
+  section{
+
+    text-align: center;
+  }
+  .hero-secction{
+
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-secction .hero-left{
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+  }
+
+  .cta-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+  }
+
+  .hero-right img{
+    display: block;
+    width: 100%;
+  }
+  .section-standout .standout-cards{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    
+
+  
+  }
+
+ 
+  .course-container{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+
+  
+  }
+
+  .testimonial-container{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+  }
+
+  .footer-top{
+    display:grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .footer-bottom{
+
+    display: block;
+    padding: 20px;
+    
+  }
+
+  .mobile-nav {
+    display: none; /* Initially hide the mobile nav */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    z-index: 1000; /* Ensure it appears above other content */
+  }
+  
+  .mobile-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10% auto; /* Adjust the margin to center the menu vertically */
+    text-align: center;
+  }
+  
+  .mobile-nav ul li {
+    margin-bottom: 20px; /* Add spacing between menu items */
+  }
+  
+  .mobile-nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  /* Style hover effect */
+  .mobile-nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .close-btn{
+    margin: 10%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+  }
+
+
+}
